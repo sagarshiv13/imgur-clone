@@ -2,7 +2,7 @@ let id
     let key = "c0394b37"
     async function searchData(){
         var search = document.getElementById("inputSearch").value
-        let url = `http://www.omdbapi.com/?apikey=${key}&s=${search}`
+        let url = `https://www.omdbapi.com/?apikey=${key}&s=${search}`
         let res = await fetch(url)
         let data = await res.json()
         
