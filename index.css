@@ -259,12 +259,13 @@ background-color: rgb(46,48,53);
     /* position: relative; */
     /* border: 1px solid red; */
 }
-.textDiv1{
+/* .textDiv1{
     width: 100%;
    
     color: white
-    /* position: relative; */
-}
+    
+} */
+
 .Image1{
     width: 100%;
     /* height: 70%; */
@@ -286,6 +287,10 @@ background-color: rgb(46,48,53);
 #tagline{
     color: white;
     text-align: center;
+}
+#MovieTitle:hover{
+    height: 30px;
+    background-color: grey;
 }
 #inputSearch{
     border: none;

@@ -12,6 +12,7 @@ var box =  document.getElementById("box2")
    let innerDiv =  document.createElement("div")
    innerDiv.setAttribute("class"," innerDiv shadow p-3 rounded")
    let textDiv = document.createElement("div")
+  //  textDiv.setAttribute("id","textDiv1")
     let text =  document.createElement("h6")
     text.setAttribute("id","tagline")
     text.innerHTML ="Stickers"
